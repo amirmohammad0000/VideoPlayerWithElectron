@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Player</title>
+    <!-- Start Font Awesome -->
+    <link rel="stylesheet" href="./Assets/FontAwesome/css/all.min.css">
+    <!-- End Font Awesome -->
+    <!-- Start Custom Css -->
+    <link rel="stylesheet" href="./Assets/CustomCssJs/App.css">
+    <!-- End Custom Css -->
+</head>
+<body>
+    <section id="app">
+        <section class="section_menu">
+            <section class="section_item_menu_open_file">
+                <p class="text_section_item_menu">Open File</p>
+            </section>
+
+            <section class="section_item_menu_about_app">
+                <p class="text_section_item_menu">About</p>
+            </section>
+        </section>
+
+        <section class="section_video">
+            <video autoplay class="video_section_video">
+                <source class="src_video_section_video" src="">
+            </video>
+        </section>
+
+        <section class="section_footer">
+            <section class="section_top_footer">
+                <section class="section_time_line_section_top_footer">
+                    <section class="time_line_section_time_line_section_top_footer">
+                        <section class="time_line_inner_section_time_line_section_top_footer" draggable="true"></section>
+                    </section>
+                </section>
+
+                <section class="section_icons_section_top_footer">
+                    <section class="section_play_paused_section_icons_section_top_footer">
+                        <span class="fas fa-play icons icon_play_section_icons_section_top_footer" title="Play"></span>
+
+                        <span class="fas fa-pause icons icon_pause_section_icons_section_top_footer" title="Pause"></span>
+
+                        <span class="fas fa-stop icons icon_stop_section_icons_section_top_footer" title="Stop"></span>
+
+                        <span class="line_between_icons"></span>
+
+                        <span class="fas fa-fast-backward icons icon_fast_backward_section_icons_section_top_footer" title="Skip Back"></span>
+
+                        <span class="fas fa-backward icons icon_backward_section_icons_section_top_footer" title="Decrease Speed"></span>
+
+                        <span class="fas fa-forward icons icon_forward_section_icons_section_top_footer" title="Increase Speed"></span>
+
+                        <span class="fas fa-fast-forward icons icon_fast_forward_section_icons_section_top_footer" title="Skip Forward"></span>
+
+                        <span class="line_between_icons"></span>
+
+                        <span class="fas fa-step-forward icons icon_step_forward_section_icons_section_top_footer" title="Step"></span>
+
+                        <span class="line_between_icons"></span>
+                    </section>
+
+                    <section class="section_sound_section_icons_section_top_footer">
+                        <span class="fas fa-volume-up icons icon_sound_section_icons_section_top_footer" title="Mute"></span>
+
+                        <section class="section_sound_line">
+                            <section class="section_inner_sound_line" draggable="true"></section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+            <section class="section_bottom_footer">
+                <p class="text_play_paused_section_bottom_footer">Playing</p>
+
+                <p class="text_time_section_bottom_footer">00:00 / 00:00</p>
+            </section>
+        </section>
+    </section>
+</body>
+<section>
+    <!-- Start Custom Js -->
+    <script src="./Assets/CustomCssJs/App.js"></script>
+    <!-- End Custom Js -->
+</section>
+</html>

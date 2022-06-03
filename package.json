@@ -1,0 +1,31 @@
+{
+  "name": "VideoPlayer",
+  "productName": "VideoPlayer",
+  "version": "1.0.0",
+  "description": "VideoPlayer",
+  "main": "App/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build"
+  },
+  "build": {
+    "appId": "VideoPlayer",
+    "compression": "maximum",
+    "icon": "./App/Assets/Images/Icon.png",
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  },
+  "author": {
+    "name": "Amir Mohammad",
+    "email": "koshkian1000@gmai.com",
+    "account number payeer": "P1033138596",
+    "bitcoin": "39EfFAs4KFUizf2v3gRLR9hDBVVLCkB6VK"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.1.1",
+    "electron-builder": "^22.11.7"
+  }
+}
